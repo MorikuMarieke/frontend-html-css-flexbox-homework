@@ -1,1 +1,82 @@
 /*Schrijf hier jouw CSS*/
+
+/*opdracht 1*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*opdracht 2*/
+.text-boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-boxes li {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+/*opdracht 3*/
+.different-positions {
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    align-self: flex-start;
+}
+
+.item2 {
+    align-self: center;
+}
+
+.item3 {
+    align-self: flex-end;
+}
+
+/*opdracht 4*/
+.wrap-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*opdracht 5*/
+
+/*.table, .table ul, .table li {*/
+/*    border: 1px dotted red;*/
+/*}*/
+
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.table ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column1 {
+    align-items: flex-start;
+}
+
+.column2 {
+    align-items: center;
+}
+
+.column3 {
+    align-items: flex-end;
+}
+
+/*.table li:first-child {*/
+/*    !*align-self: flex-start;*!*/
+/*}*/

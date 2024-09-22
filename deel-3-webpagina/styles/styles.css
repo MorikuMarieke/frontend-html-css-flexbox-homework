@@ -1,1 +1,24 @@
 /*Schrijf hier jouw css*/
+/*block color: #C16E70*/
+
+/*---General styles---*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F2F3D9;
+}
+
+/*---Typography---*/
+h1, h3 {
+
+}

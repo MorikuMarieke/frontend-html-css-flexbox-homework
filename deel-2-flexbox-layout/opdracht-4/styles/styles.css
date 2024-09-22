@@ -1,1 +1,54 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+/*nav element*/
+.outer-col-1 {
+    flex: 0 0 20vw;
+}
+
+/*outer col 2 elements*/
+.outer-col-2 {
+    flex: 0 0 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 150px;
+}
+
+.inner-row {
+    flex: 1 1 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    flex: 0 0 20vw;
+}
+
+/*inner col div within outer col 2*/
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+article {
+    flex: 1 1 auto;
+}
+
+footer {
+    flex: 0 0 150px;
+}
+
