@@ -54,8 +54,6 @@ p {
     color: #030027;
 }
 
-
-
 /*---Navigation---*/
 nav {
     background-color: #030027;
@@ -64,15 +62,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    flex-wap: wrap;
+    flex-wrap: wrap;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    flex-wrap: wrap:
-
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
 
 /*---Header---*/
 .header {
@@ -89,8 +87,6 @@ h1, h3 {
     color: #030027;
 }
 
-
-
 /*---Main---*/
 
 .block-row-container {
@@ -99,6 +95,7 @@ h1, h3 {
     justify-content: center;
     flex-direction: row;
     gap: 70px;
+    /*flex-wrap: wrap;*/
 
     /*justify-content: space-between;*/
 }
@@ -114,6 +111,3 @@ h1, h3 {
     border-radius: 10px;
     background-color: #C16E70;
 }
-
-
-
