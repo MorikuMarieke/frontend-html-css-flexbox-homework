@@ -1,1 +1,40 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.col-1 {
+    flex: 0 0 20vw;
+}
+
+.col-2 {
+    flex: 1 1 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    /*overflow-y: auto;*/
+}
+
+article {
+    flex: 1 0 100%;
+}
+
+header, footer {
+    flex: 0 0 150px;
+}
+

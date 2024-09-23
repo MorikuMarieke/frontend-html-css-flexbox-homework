@@ -1,1 +1,39 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    flex: 0 0 150px;
+}
+
+
+main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/*main content*/
+nav {
+    order: -1;
+    flex: 0 0 20vw;
+}
+
+article {
+    flex: 1 1 auto;
+}
+
+aside {
+    order: 1;
+    flex: 0 0 20vw;
+}
+
